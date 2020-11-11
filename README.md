@@ -17,3 +17,16 @@ git push origin master, and you should see your files in github, (and create a f
 
 then on gitub go to Setings (next to insights) on row of commands scroll down to github pages, change source to main? (unles you have pages in another branch) and that should be it.
 hmm I went out and then back into settings scroll down again to github pages, and you can see the link for where your pages will be..  (maybe it was there after I did last step but did not notice?) then click and you should see your page.
+
+Put bookdown in rstudio:
+install.packages("bookdown")   will ask to restart R
+
+library(bookdown)
+create a index.Rmd
+include this line: 
+---
+site: bookdown::bookdown_site
+:
+---
+Then I had to create a new project from existing directory where I had the index.Rmd file - and then the build tab appeared: in the tab row with environmnt and history.....
+click build then _> build book -> then bookdown:gitbook and a preiew of web page should appear.!
