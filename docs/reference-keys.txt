@@ -1,0 +1,8 @@
+disbamer
+pipe-detection
+how-many-arguments-passed-into-script
+check-if-a-commandprogram-is-avaiable
+assign-ouput-of-a-command-to-a-variable-reference-an-input-argument
+run-a-command-and-put-the-output-into-a-variable.
+strings-in-bash-bash-variable-data
+misc
